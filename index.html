@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css"> 
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <Header>
+    <h1> <a href="https://www.aluracursos.com/?gclid=CjwKCAjw3POhBhBQEiwAqTCuBiRA2DbJS1h
+        Yh2EsV-teIr0yLbNpHOauxpn8qOqOd29a5ACntM9VrhoC4SAQAvD_BwE"><img src="imagenes/Logosvg.svg" alt="logo alura"></a></h1>
+</Header>
+<main>
+        <section class="entrada">
+            <div class="box">
+                <textarea name="textarea" id="textareaInput" placeholder="Ingrese el texto aqui"  
+                cols="30" rows="10"></textarea>
+            </div>
+            
+        
+            <div class="position-enc-des">
+                <input id="Encriptar" class="button" type="button" value="Encriptar">
+                <input id="Desencriptar" class="button" type="button" value="Desencriptar">
+            </div>
+    </section>
+       
+       <section class="salida">
+           <div class="box">
+            <div class="place-holder" id="muñeco"><img src="imagenes/Muñeco.svg" alt="muñeco">
+            </div>
+           <textarea readonly name="textarea" id="textareaOutput" placeholder=""  
+           cols="30" rows="10"></textarea>
+
+        </div>
+        <div class="position-copy">
+           <input class="button" id="copy"  type="button" value="copiar">
+        </div>
+        
+    </section>
+    </main>
+    <footer>
+        <img src="imagenes/logoclaro.svg" alt="logo alura">
+        <p class="copyright">PallaJonas - 2023</p>
+    </footer>
+    <script src="javascript.js"></script>   
+</body>
+</html>

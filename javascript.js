@@ -57,7 +57,7 @@ $copy.addEventListener("click", function() {
 $textoInput.addEventListener('input', (event) => {
     const target = event.target;
     target.style.height = 'auto';
-    target.style.height = target.scrollHeight + 'px';
+    target.style.height = target.scrollHeight + ' px';
     
     if (target.value === '') {
         $muñeco.style.display = "block";

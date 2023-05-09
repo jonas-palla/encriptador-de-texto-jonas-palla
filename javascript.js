@@ -48,7 +48,7 @@ $desencriptar.onclick = function() {
    
 };
 $copy.addEventListener("click", function() {
-    boton.style.backgroundColor = 'red';
+
     $textoACopiar.select();
     document.execCommand("copy");
     

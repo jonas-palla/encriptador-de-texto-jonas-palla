@@ -7,17 +7,19 @@
     <title>Encriptador de texto</title>
     <link rel="icon" href="imagenes/Logosvg.svg">
     <link rel="stylesheet" href="reset.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
+    
 
 </head>
 
 <body>
     <Header>
     <h1> <a href="https://www.aluracursos.com/?gclid=CjwKCAjw3POhBhBQEiwAqTCuBiRA2DbJS1h
-        Yh2EsV-teIr0yLbNpHOauxpn8qOqOd29a5ACntM9VrhoC4SAQAvD_BwE"><img src="imagenes/Logosvg.svg" alt="logo alura"></a></h1>
+        Yh2EsV-teIr0yLbNpHOauxpn8qOqOd29a5ACntM9VrhoC4SAQAvD_BwE"  target="_blank"><img src="imagenes/Logosvg.svg" alt="logo alura"></a></h1>
 </Header>
 <main>
-        <section class="entrada">
+        <article class="entrada">
             <div class="box">
                 <textarea name="textarea" id="textareaInput" placeholder="Ingrese el texto aqui"  
                 cols="30" rows="10"></textarea>
@@ -28,25 +30,28 @@
                 <input id="Encriptar" class="button" type="button" value="Encriptar">
                 <input id="Desencriptar" class="button" type="button" value="Desencriptar">
             </div>
-    </section>
+        </article>
        
-       <section class="salida">
+       <article class="salida">
+        
            <div class="box">
             <div class="place-holder" id="muñeco"><img src="imagenes/Muñeco.svg" alt="muñeco">
             </div>
            <textarea readonly name="textarea" id="textareaOutput" placeholder=""  
            cols="30" rows="10"></textarea>
 
-        </div>
+        
         <div class="position-copy">
            <input class="button" id="copy"  type="button" value="copiar">
         </div>
         
-    </section>
+       </article>
     </main>
-    <footer>
-        <img src="imagenes/logoclaro.svg" alt="logo alura">
+    <footer><a href="https://www.aluracursos.com/?gclid=CjwKCAjw3POhBhBQEiwAqTCuBiRA2DbJS1h
+        Yh2EsV-teIr0yLbNpHOauxpn8qOqOd29a5ACntM9VrhoC4SAQAvD_BwE" target="_blank"><img src="imagenes/logoclaro.svg" alt="logo alura"></a>
         <p class="copyright">PallaJonas - 2023</p>
+        <a href="https://github.com/jonas-palla"target="_blank"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/jonas-palla/"  target="_blank"><i class="bi bi-linkedin"></i></a>
     </footer>
     <script src="javascript.js"></script>   
 </body>

@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador de texto</title>
     <link rel="icon" href="imagenes/Logosvg.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="reset.css"> 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
@@ -24,11 +27,14 @@
                 <textarea name="textarea" id="textareaInput" placeholder="Ingrese el texto aqui"  
                 cols="30" rows="10"></textarea>
             </div>
+            <div class="info">
+                <p><i class="bi bi-exclamation-circle"></i> Solo letras minúsculas y sin acentos</p>
+            </div>
             
         
             <div class="position-enc-des">
-                <input id="Encriptar" class="button" type="button" value="Encriptar">
-                <input id="Desencriptar" class="button" type="button" value="Desencriptar">
+                <input id="Encriptar" class="btn" type="button" value="Encriptar">
+                <input id="Desencriptar" class="btn" type="button" value="Desencriptar">
             </div>
         </article>
        
@@ -42,7 +48,7 @@
 
         
         <div class="position-copy">
-           <input class="button" id="copy"  type="button" value="copiar">
+           <input class="btn" id="copy"  type="button" value="copiar">
         </div>
         
        </article>
